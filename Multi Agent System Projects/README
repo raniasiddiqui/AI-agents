@@ -1,4 +1,4 @@
-🤖 Multi-Agent QA Automation System with Groq & Playwright
+## 🤖 Multi-Agent QA Automation System with Groq & Playwright
 
 This project implements a multi-agent QA automation system powered by Groq open-source models and Playwright. It refines natural language QA instructions, inspects websites to generate stable Playwright locators, and plans comprehensive test cases across multiple categories (functional, negative, performance, security, exploratory, etc.).
 
