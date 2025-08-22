@@ -1,14 +1,14 @@
-🤖 Multi-Agent QA Automation System with Groq & Playwright
+## 🤖 Multi-Agent QA Automation System with Groq & Playwright
 
 This project implements a multi-agent QA automation system powered by Groq open-source models and Playwright. It refines natural language QA instructions, inspects websites to generate stable Playwright locators, and plans comprehensive test cases across multiple categories (functional, negative, performance, security, exploratory, etc.).
 
-✨ Key Features
+### ✨ Key Features
 
-🧠 Instruction Refinement – Converts vague QA instructions into clear, structured, and Playwright-ready automation steps.
+1. 🧠 Instruction Refinement – Converts vague QA instructions into clear, structured, and Playwright-ready automation steps.
 
-🔍 Site Inspector Agent – Analyzes webpages and generates robust self-healing locators (ID, name, class, CSS, XPath, role-based, text-based).
+2. 🔍 Site Inspector Agent – Analyzes webpages and generates robust self-healing locators (ID, name, class, CSS, XPath, role-based, text-based).
 
-📋 Test Planner Agent – Creates test cases covering:
+3. 📋 Test Planner Agent – Creates test cases covering:
 
       - Functional
 
@@ -22,11 +22,11 @@ This project implements a multi-agent QA automation system powered by Groq open-
       
       - End-to-End Journeys
 
-🔄 Self-Healing Locator Strategies – Ensures automation scripts adapt to DOM changes.
+4. 🔄 Self-Healing Locator Strategies – Ensures automation scripts adapt to DOM changes.
 
-⚡ Async Multi-Agent Orchestration – Agents collaborate to refine, inspect, and generate test cases automatically.
+5. ⚡ Async Multi-Agent Orchestration – Agents collaborate to refine, inspect, and generate test cases automatically.
 
-🏗️ Project Workflow
+### 🏗️ Project Workflow
 
 1. User Input: Provide a natural language QA instruction (e.g., "Test login with valid credentials and verify dashboard loads").
 
