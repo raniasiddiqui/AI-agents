@@ -4,11 +4,13 @@ This project implements a multi-agent QA automation system powered by Groq open-
 
 ### ✨ Key Features
 
-1. 🧠 Instruction Refinement – Converts vague QA instructions into clear, structured, and Playwright-ready automation steps.
+1. 🧠 Instruction Refinement – Converts QA instructions into clear, structured, and Playwright-ready automation steps.
+   These instructions are generated from the "Feature_Description_through_Documents.ipynb" file.
+2. 📄 The file "Feature_Description_through_Documents.ipynb" takes any functional specification document in a pdf format, and generates exact description of any feature in detail from the document. This saves the manual effort of going into the files and finding out description for each of the feature. This description is passed to the instruction refiner to refine it more. 
 
-2. 🔍 Site Inspector Agent – Analyzes webpages and generates robust self-healing locators (ID, name, class, CSS, XPath, role-based, text-based).
+3. 🔍 Site Inspector Agent – Analyzes webpages and generates robust self-healing locators (ID, name, class, CSS, XPath, role-based, text-based).
 
-3. 📋 Test Planner Agent – Creates test cases covering:
+4. 📋 Test Planner Agent – Creates test cases covering:
 
       - Functional
 
@@ -22,9 +24,9 @@ This project implements a multi-agent QA automation system powered by Groq open-
       
       - End-to-End Journeys
 
-4. 🔄 Self-Healing Locator Strategies – Ensures automation scripts adapt to DOM changes.
+5. 🔄 Self-Healing Locator Strategies – Ensures automation scripts adapt to DOM changes.
 
-5. ⚡ Async Multi-Agent Orchestration – Agents collaborate to refine, inspect, and generate test cases automatically.
+6. ⚡ Async Multi-Agent Orchestration – Agents collaborate to refine, inspect, and generate test cases automatically.
 
 ### 🏗️ Project Workflow
 
