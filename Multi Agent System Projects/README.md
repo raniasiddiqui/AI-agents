@@ -10,7 +10,9 @@ This project implements a multi-agent QA automation system powered by Groq open-
 
 3. 🔍 Site Inspector Agent – Analyzes webpages and generates robust self-healing locators (ID, name, class, CSS, XPath, role-based, text-based).
 
-4. 📋 Test Planner Agent – Creates test cases covering:
+4. Crawl Website - This crawls any website & generates reccomended locators & selectors that can be passed to the planner agent.
+
+5. 📋 Test Planner Agent – Creates test cases covering:
 
       - Functional
 
@@ -24,9 +26,9 @@ This project implements a multi-agent QA automation system powered by Groq open-
       
       - End-to-End Journeys
 
-5. 🔄 Self-Healing Locator Strategies – Ensures automation scripts adapt to DOM changes.
+6. 🔄 Self-Healing Locator Strategies – Ensures automation scripts adapt to DOM changes.
 
-6. ⚡ Async Multi-Agent Orchestration – Agents collaborate to refine, inspect, and generate test cases automatically.
+7. ⚡ Async Multi-Agent Orchestration – Agents collaborate to refine, inspect, and generate test cases automatically.
 
 ### 🏗️ Project Workflow
 
@@ -36,9 +38,9 @@ This project implements a multi-agent QA automation system powered by Groq open-
 
 3. Site Inspector:
 
-    - If URL is provided → inspects the DOM, extracts locators.
+    - If URL is provided → inspects the DOM, extracts locators. Refer to AI_testcases_with_URL.py file
 
-    - If no URL → generates generic but reliable locator strategies.
+    - If no URL → generates generic but reliable locator strategies. Refer to AI_testcases.py file.
 
 4. Planner Agent: Generates detailed Playwright test cases across multiple testing categories.
 
