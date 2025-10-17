@@ -25,10 +25,13 @@ This project implements a multi-agent QA automation system powered by Groq open-
       - Usability & Accessibility
       
       - End-to-End Journeys
+   Generates a complete comprehensive excel file showing all possible testcases.
+6. Test Coder Agent – Generates automation scripts for generated testcases.
 
 6. 🔄 Self-Healing Locator Strategies – Ensures automation scripts adapt to DOM changes.
 
-7. ⚡ Async Multi-Agent Orchestration – Agents collaborate to refine, inspect, and generate test cases automatically.
+7. ⚡Prompt Refiner for Automated Scripts: The generated automated scripts by test coder agent are then refined by another LLM to ensure the selector
+   reccomendations given in the script match the selectors exactly as given by playwright codegen.
 
 ### 🏗️ Project Workflow
 
@@ -45,3 +48,4 @@ This project implements a multi-agent QA automation system powered by Groq open-
 4. Planner Agent: Generates detailed Playwright test cases across multiple testing categories.
 
 ✅ Output: A structured set of test cases with selectors, actions, and validations.
+5. Test Coder Agent: Generates automatable playwright scripts. 
